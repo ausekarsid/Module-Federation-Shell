@@ -1,0 +1,18 @@
+{
+    "/auth": {
+      "target": "http://localhost:80",
+      "secure": true,
+      "changeOrigin": true
+    }
+    ,
+    "/video": {
+      "target": "http://localhost:81",
+      "secure": true,
+      "changeOrigin": true
+    },
+    "/admin": {
+      "target": "http://localhost:82",
+      "secure": true,
+      "changeOrigin": true
+    }
+  }
