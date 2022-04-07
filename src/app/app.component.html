@@ -1,12 +1,9 @@
-<ul *ngIf="isAuthorized else loaded">
+<ul>
   <li><img src="../assets/angular.png" width="50"></li>
   <li><a routerLink="/">Home</a></li>
   <li><a routerLink="/travel">Travel</a></li>
-  <!-- <li><a routerLink="/linkai">LINKAI</a></li> -->
-  <li><a routerLink="/digitalai/clientselection">DIGITALAI</a></li>
-  <!-- <li><a routerLink="/ds/">ds</a></li> -->
 </ul>
-<div *ngIf="isAuthorized" style="height: 100vh;width: 100vw;">
+<div>
   <router-outlet>
   </router-outlet>
 </div>
